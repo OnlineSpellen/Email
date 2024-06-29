@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Emails</title>
+</head>
+<body>
+    <h1>Send Emails</h1>
+    <form action="/send-emails" method="POST">
+        <label for="num_emails">Number of Emails:</label>
+        <input type="number" id="num_emails" name="num_emails" required><br><br>
+        
+        <label for="recipient_email">Recipient's Email:</label>
+        <input type="email" id="recipient_email" name="recipient_email" required><br><br>
+        
+        <input type="submit" value="Send Emails">
+    </form>
+</body>
+</html>
